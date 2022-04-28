@@ -11,12 +11,81 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <style>
+      body {
+        background-color: #666;
+      }
+    </style>
   </head>
   <body>
+    <div class="container my-5">
+      <h1>Estudiantes y Profesores</h1>
+      <form id="formulario">
+        <input
+          type="text"
+          class="form-control mb-2"
+          value="dvdev"
+          name="nombre"
+          placeholder="Escribe tu nombre"
+          required
+        />
+        <input
+          type="number"
+          class="form-control mb-2"
+          value="25"
+          name="edad"
+          placeholder="Escribe tu nombre"
+          required
+        />
+        <select class="form-select mb-2" aria-label="Default select example">
+          <option value="Estudiante" selected>Estudiante</option>
+          <option value="Profesor">Profesor</option>
+        </select>
+
+        <button class="btn btn-primary" type="submit">Agregar</button>
+      </form>
+
+      <section class="row mt-3">
+        <div class="col-6" id="cardsEstudiantes">
+          <!--  -->
+        </div>
+
+        <div class="col-6" id="cardsProfesores">
+          <!--  -->
+        </div>
+      </section>
+    </div>
+
+    <template id="templateEstudiante">
+      <article class="card mb-2">
+        <div class="card-body">
+          <h5>
+            <span class="text-primary">Nombre</span>
+            <span class="badge bg-success">Desaprobado</span>
+          </h5>
+          <h6>Estudiante</h6>
+          <p class="lead">edad</p>
+          <button class="btn btn-success">Aprobar</button>
+          <button class="btn btn-danger">Desaprobado</button>
+        </div>
+      </article>
+    </template>
+
+    <template id="templateProfesor">
+      <article class="card mb-2 bg-dark text-white">
+        <div class="card-body">
+          <h5>Nombre</h5>
+          <h6>Profesor</h6>
+          <p class="lead">Edad</p>
+        </div>
+      </article>
+    </template>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="app.js"></script>
   </body>
 </html>
