@@ -19,7 +19,7 @@
   </head>
   <body>
     <div class="container my-5">
-      <h1>Estudiantes y Profesores</h1>
+      <h1 class="text-white">Estudiantes y Profesores</h1>
       <form id="formulario">
         <input
           type="text"
@@ -34,10 +34,14 @@
           class="form-control mb-2"
           value="25"
           name="edad"
-          placeholder="Escribe tu nombre"
+          placeholder="Escribe tu edad"
           required
         />
-        <select class="form-select mb-2" aria-label="Default select example">
+        <select
+          class="form-select mb-2"
+          name="opcion"
+          aria-label="Default select example"
+        >
           <option value="Estudiante" selected>Estudiante</option>
           <option value="Profesor">Profesor</option>
         </select>
