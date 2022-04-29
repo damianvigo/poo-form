@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "@dvdev",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "uid": "^2.0.0"
+  }
 }

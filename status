@@ -1,0 +1,36 @@
+[33mcommit c471eadbfdf381e84bd6d1cb142f97b46a302fe8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Damian Vigo <damiandanielvigo@gmail.com>
+Date:   Thu Apr 28 12:33:01 2022 -0300
+
+    poo-v1
+
+[33mcommit f82be02bbd97ba95af75f827d83889dc25412e56[m
+Author: Damian Vigo <damiandanielvigo@gmail.com>
+Date:   Thu Apr 28 00:32:39 2022 -0300
+
+    add-student-&-teacher
+
+[33mcommit 16f24513386e8dcca83ef3e0db0847765611694e[m[33m ([m[1;31morigin/static[m[33m, [m[1;32mvanillajs[m[33m, [m[1;32mstatic[m[33m)[m
+Author: Damian Vigo <damiandanielvigo@gmail.com>
+Date:   Wed Apr 27 22:08:44 2022 -0300
+
+    add-layout
+
+[33mcommit e5f0449839f97ebdad016ddb812cc81e4e568926[m
+Merge: cd94176 bb464c4
+Author: Damian Vigo <damiandanielvigo@gmail.com>
+Date:   Wed Apr 27 20:38:50 2022 -0300
+
+    Merge branch 'master' of github.com:damianvigo/poo-form
+
+[33mcommit cd94176aceff133b582ab131b44e35b60d6471d5[m
+Author: Damian Vigo <damiandanielvigo@gmail.com>
+Date:   Wed Apr 27 20:34:23 2022 -0300
+
+    first-commit
+
+[33mcommit bb464c4baa62dd207e824cbd8b1ecfff567468a0[m
+Author: Damián <damiandanielvigo@gmail.com>
+Date:   Wed Apr 27 20:34:03 2022 -0300
+
+    Initial commit

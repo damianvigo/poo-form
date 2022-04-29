@@ -20,6 +20,9 @@
   <body>
     <div class="container my-5">
       <h1 class="text-white">Estudiantes y Profesores</h1>
+      <div class="alert alert-danger d-none">
+        Por favor ingrese todos los datos
+      </div>
       <form id="formulario">
         <input
           type="text"
@@ -28,15 +31,29 @@
           name="nombre"
           placeholder="Escribe tu nombre"
           required
+          id="userName"
         />
+
+        <p
+          class="text-danger mb-2 d-none bg-dark p-1 text-white"
+          id="alertName"
+        ></p>
+
         <input
           type="email"
           class="form-control mb-2"
-          value="dv@gmail.com"
+          value="dvdev@gmail.com"
           name="email"
           placeholder="Escribe tu email"
           required
+          id="userEmail"
         />
+
+        <p
+          class="text-danger mb-2 d-none bg-dark p-1 text-white"
+          id="alertEmail"
+        ></p>
+
         <select
           class="form-select mb-2"
           name="opcion"
@@ -48,6 +65,8 @@
 
         <button class="btn btn-primary" type="submit">Agregar</button>
       </form>
+
+      <div class="alert alert-success mt-2 d-none" id="alertSuccess"></div>
 
       <section class="row mt-3">
         <div class="col-6" id="cardsEstudiantes">
@@ -90,6 +109,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    <script src="app.js"></script>
+    <script src="./app.js" type="module"></script>
   </body>
 </html>
